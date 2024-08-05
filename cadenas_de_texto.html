@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadenas de Texto</title>
+  </head>
+  <body>
+    Cadenas de Texto
+
+    <script>
+      let nombre = "Gabriel";
+      let apellido = "Enriquez";
+      let saludo = new String("Hola Mundo");
+      let lorem =
+        "     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt dolorum ipsa earum facere, alias distinctio ipsum veniam. Tempora architecto debitis doloribus, sit accusantium incidunt esse maiores sequi ad fugit provident?    ";
+
+      console.log(nombre, apellido, saludo);
+      console.log(
+        nombre.length,
+        apellido.length,
+        saludo.length,
+        nombre.toUpperCase(),
+        apellido.toLowerCase(),
+        lorem.includes("amet"),
+        lorem.includes("gabi"),
+        lorem,
+        lorem.trim(),
+        lorem.split(",")
+      );
+    </script>
+  </body>
+</html>
